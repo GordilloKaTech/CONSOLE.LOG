@@ -1,0 +1,14 @@
+alert('Bienvenido al juego del número secreto');
+
+let intento = prompt('Elige un número entre 1 y 10');
+
+let numeroSecreto = 4;
+
+// Se incluye `console.log` para verificar el valor de `intento`
+console.log('El número que ingresaste es:', intento);
+
+if (intento == numeroSecreto) {
+  alert('¡Acertaste!');
+} else {
+  alert('El número secreto era ' + numeroSecreto);
+}
